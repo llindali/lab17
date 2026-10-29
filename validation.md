@@ -29,3 +29,7 @@ PAYEMS December 2024: vintage = 159,536; current = 158,316 thousand jobs. Same-d
 
 Source page inspected during preparation: https://fred.stlouisfed.org/series/DGS10
 These source-page comparisons were checked with AI assistance; the student’s own three-value check remains an in-class activity.
+
+## App checks
+
+Streamlit AppTest passed: all four default series render with charts, inspection tables and the comparison table; an invalid custom ID reports a series-specific error while the four valid series remain usable. Initial integration checks used live endpoints. The final layout check reused the downloaded live CSV responses after updating the table-width argument. No app data is hard-coded.
